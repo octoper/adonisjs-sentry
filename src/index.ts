@@ -1,3 +1,1 @@
-export {
-  defineConfig,
-} from './define_config'
+export { defineConfig } from './define_config'
