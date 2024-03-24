@@ -38,4 +38,4 @@ This package is open-sourced software licensed under the [MIT license](LICENSE.m
 [typescript-image]: https://img.shields.io/badge/Typescript-294E80.svg?style=for-the-badge&logo=typescript
 
 [license-url]: LICENSE.md
-[license-image]: https://img.shields.io/github/license/adonisjs/ally?style=for-the-badge
+[license-image]: https://img.shields.io/github/license/octoper/adonisjs-sentry?style=for-the-badge
