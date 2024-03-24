@@ -26,6 +26,12 @@ node ace configure @octoper/adonisjs-sentry
 node ace configure @octoper/adonisjs-sentry --dsn="https://..."
 ```
 
+## Thanks
+This projects uses the [adonisjs/pkg-starter-kit](https://github.com/adonisjs/pkg-starter-kit) template and relied on all the official AdonisJS packages on how to create it.
+
+- [@thetutlage](https://github.com/thetutlage) - for creating AdonisJS
+- [@reg2005](https://github.com/reg2005/adonis5-sentry) - for creating [adonis5-sentry](https://github.com/reg2005/adonis5-sentry)
+
 ## License
 This package is open-sourced software licensed under the [MIT license](LICENSE.md).
 
