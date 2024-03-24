@@ -3,7 +3,7 @@ import * as Sentry from '@sentry/node'
 
 declare module '@adonisjs/core/types' {
   export interface ContainerBindings {
-    'sentry': typeof Sentry
+    sentry: typeof Sentry
   }
 }
 
@@ -20,7 +20,7 @@ export default class SentryProvider {
   }
 
   async boot() {
-    const config = this.app.config.get<Sentry.NodeOptions|undefined>('sentry')
+    const config = this.app.config.get<Sentry.NodeOptions | undefined>('sentry')
     Sentry.init(config)
   }
 }
