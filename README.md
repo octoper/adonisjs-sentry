@@ -14,6 +14,9 @@ This is an unofficial Sentry SDK for AdonisJS framework
 Install the `@octoper/adonisjs-sentry` package from the NPM package registry
 ```bash
 npm i @octoper/adonisjs-sentry
+
+# pnpm
+pnpm add @octoper/adonisjs-sentry
 ```
 
 ## Configure
