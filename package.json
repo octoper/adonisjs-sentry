@@ -1,7 +1,7 @@
 {
   "name": "@octoper/adonisjs-sentry",
   "description": "Sentry provider for AdonisJS 6",
-  "version": "0.1.0",
+  "version": "0.1.1-0",
   "engines": {
     "node": ">=20.6.0"
   },
@@ -60,7 +60,8 @@
   "author": "Vaggelis Yfantis",
   "license": "MIT",
   "keywords": [
-    "AdonisJS", "Sentry"
+    "AdonisJS",
+    "Sentry"
   ],
   "eslintConfig": {
     "extends": "@adonisjs/eslint-config/package"
