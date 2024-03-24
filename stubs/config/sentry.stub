@@ -1,0 +1,10 @@
+{{{
+  exports({ to: app.configPath('sentry.ts') })
+}}}
+import env from '#start/env'
+import { defineConfig } from '@octoper/adonisjs-sentry'
+
+export default defineConfig({
+  DSN: env.get('SENTRY_DSN'),
+  enabled: env.get('SENTRY_ENABLED'),
+})
